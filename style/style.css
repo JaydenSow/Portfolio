@@ -64,10 +64,11 @@ body {
 }
 .home__header h1 {
   font-size: 80px;
-  padding: 90px;
+  padding: 20px;
 }
 .home__icon {
   font-size: 37px;
+  padding: 90px;
 }
 /* Social Media Icons CSS */
 .fa {
