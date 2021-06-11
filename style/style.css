@@ -27,9 +27,20 @@ nav .container {
 .nav__links a {
   color: black;
   text-decoration: none;
+  display: block;
+  padding: 24px 16px;
+  text-align: center;
 }
-.nav__links li {
+ul {
   list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+li {
+  float: left;
+}
+li :hover {
+  background-color: #4285f4;
 }
 /* General Section CSS */
 section {
@@ -54,6 +65,7 @@ body {
   height: 800px;
   background-attachment: fixed;
 }
+
 .home__section .container {
   display: flex;
   flex-direction: column;
