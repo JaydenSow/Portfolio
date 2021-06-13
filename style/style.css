@@ -94,7 +94,7 @@ body {
   border-radius: 50px;
   transition: top ease 0.5s;
 }
-.fa:hover {
+.home__icon .fa:hover {
   transform: translate(0, -10px);
 }
 
